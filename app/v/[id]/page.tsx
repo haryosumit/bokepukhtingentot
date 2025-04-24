@@ -89,7 +89,7 @@ export default async function Video({ params }: PageProps) {
         '@type': 'Article',
         headline: `${file.file_title}`,
         image: file.player_img,
-        description: `${file.title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
+        description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
         url: `https://bokepukhtingentot.pages.dev/v/${file.file_code}#${file.file_title}`,
         datePublished: new Date(
             file.file_created + ".000Z"
