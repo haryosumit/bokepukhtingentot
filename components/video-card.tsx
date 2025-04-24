@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "./ui/card";
 
 import { Badge } from "./ui/badge";
@@ -12,6 +13,7 @@ const VideoCard = ({ video }: any) => {
                 <Link
                     href={`/v/${video.file_code}#${video.title}`}
                     title={`Watch ${video.title}`}
+                    target="blank"
                     >
                 <Thumbnail
                     thumbnail={video.thumbnail}
